@@ -1,0 +1,15 @@
+{
+  "name": "ukterroralert_alertfetcher",
+  "version": "1.0.0",
+  "description": "Fetches alerts from MI5 and stores them in Dynamo DB.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Rauser",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.828.0",
+    "xml2js": "^0.4.22"
+  }
+}

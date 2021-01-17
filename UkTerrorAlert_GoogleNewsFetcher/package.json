@@ -1,0 +1,15 @@
+{
+  "name": "ukterroralert_googlenewsfetcher",
+  "version": "1.0.0",
+  "description": "Fetches news from Google News and stores it in DynamoDB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Rauser",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "2.571.0",
+    "xml2js": "0.4.22"
+  }
+}
